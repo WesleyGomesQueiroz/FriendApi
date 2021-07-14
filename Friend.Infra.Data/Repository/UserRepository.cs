@@ -1,6 +1,7 @@
 ﻿using Friend.Domain.Entities;
 using Friend.Domain.Interfaces.Repository;
 using Friend.Infra.Data.EntityFramework;
+using Friend.Shared;
 using System;
 using System.Threading.Tasks;
 
@@ -17,7 +18,7 @@ namespace Friend.Infra.Data.Repository
                 Name = user.Name,
                 Email = user.Email,
                 Document = user.Document,
-                Password = user.Password,
+                Password = Constants.EncryptSenha(user.Password),
                 DTCreate = DateTime.Now,
                 DTUpdate = null
             };
@@ -43,7 +44,7 @@ namespace Friend.Infra.Data.Repository
                 Name = user.Name,
                 Email = user.Email,
                 Document = user.Document,
-                Password = user.Password,
+                Password = Constants.EncryptSenha(user.Password),
                 DTUpdate = DateTime.Now
             };
 

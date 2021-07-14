@@ -37,7 +37,7 @@ namespace Friend.Tests
                 Name = "Wesley Queiroz",
                 Email = "wesleyqueiroz@gmail.com",
                 Document = "22222222222",
-                Password = "wesley@123"
+                Password = "123"
             };
 
             _userRepository.Update(user);
