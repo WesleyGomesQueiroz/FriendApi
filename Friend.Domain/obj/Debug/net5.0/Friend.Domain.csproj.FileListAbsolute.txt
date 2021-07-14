@@ -1,0 +1,15 @@
+C:\Lab\Friend\FriendApi\Friend.Domain\bin\Debug\net5.0\Friend.Domain.deps.json
+C:\Lab\Friend\FriendApi\Friend.Domain\bin\Debug\net5.0\Friend.Domain.dll
+C:\Lab\Friend\FriendApi\Friend.Domain\bin\Debug\net5.0\ref\Friend.Domain.dll
+C:\Lab\Friend\FriendApi\Friend.Domain\bin\Debug\net5.0\Friend.Domain.pdb
+C:\Lab\Friend\FriendApi\Friend.Domain\obj\Debug\net5.0\Friend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lab\Friend\FriendApi\Friend.Domain\obj\Debug\net5.0\Friend.Domain.AssemblyInfoInputs.cache
+C:\Lab\Friend\FriendApi\Friend.Domain\obj\Debug\net5.0\Friend.Domain.AssemblyInfo.cs
+C:\Lab\Friend\FriendApi\Friend.Domain\obj\Debug\net5.0\Friend.Domain.csproj.CoreCompileInputs.cache
+C:\Lab\Friend\FriendApi\Friend.Domain\obj\Debug\net5.0\Friend.Domain.dll
+C:\Lab\Friend\FriendApi\Friend.Domain\obj\Debug\net5.0\ref\Friend.Domain.dll
+C:\Lab\Friend\FriendApi\Friend.Domain\obj\Debug\net5.0\Friend.Domain.pdb
+C:\Lab\Friend\FriendApi\Friend.Domain\bin\Debug\net5.0\Friend.Shared.dll
+C:\Lab\Friend\FriendApi\Friend.Domain\bin\Debug\net5.0\Friend.Shared.pdb
+C:\Lab\Friend\FriendApi\Friend.Domain\obj\Debug\net5.0\Friend.Domain.csprojAssemblyReference.cache
+C:\Lab\Friend\FriendApi\Friend.Domain\obj\Debug\net5.0\Friend.Domain.csproj.CopyComplete

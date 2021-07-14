@@ -1,0 +1,17 @@
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\bin\Debug\net5.0\Friend.Infra.Data.deps.json
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\bin\Debug\net5.0\Friend.Infra.Data.dll
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\bin\Debug\net5.0\ref\Friend.Infra.Data.dll
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\bin\Debug\net5.0\Friend.Infra.Data.pdb
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\obj\Debug\net5.0\Friend.Infra.Data.csprojAssemblyReference.cache
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\obj\Debug\net5.0\Friend.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\obj\Debug\net5.0\Friend.Infra.Data.AssemblyInfoInputs.cache
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\obj\Debug\net5.0\Friend.Infra.Data.AssemblyInfo.cs
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\obj\Debug\net5.0\Friend.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\obj\Debug\net5.0\Friend.Infra.Data.dll
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\obj\Debug\net5.0\ref\Friend.Infra.Data.dll
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\obj\Debug\net5.0\Friend.Infra.Data.pdb
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\bin\Debug\net5.0\Friend.Domain.dll
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\bin\Debug\net5.0\Friend.Shared.dll
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\bin\Debug\net5.0\Friend.Domain.pdb
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\bin\Debug\net5.0\Friend.Shared.pdb
+C:\Lab\Friend\FriendApi\Friend.Infra.Data\obj\Debug\net5.0\Friend.Infra.Data.csproj.CopyComplete

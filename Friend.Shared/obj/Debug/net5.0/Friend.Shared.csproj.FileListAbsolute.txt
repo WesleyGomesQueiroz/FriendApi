@@ -1,0 +1,11 @@
+C:\Lab\Friend\FriendApi\Friend.Shared\bin\Debug\net5.0\Friend.Shared.deps.json
+C:\Lab\Friend\FriendApi\Friend.Shared\bin\Debug\net5.0\Friend.Shared.dll
+C:\Lab\Friend\FriendApi\Friend.Shared\bin\Debug\net5.0\ref\Friend.Shared.dll
+C:\Lab\Friend\FriendApi\Friend.Shared\bin\Debug\net5.0\Friend.Shared.pdb
+C:\Lab\Friend\FriendApi\Friend.Shared\obj\Debug\net5.0\Friend.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lab\Friend\FriendApi\Friend.Shared\obj\Debug\net5.0\Friend.Shared.AssemblyInfoInputs.cache
+C:\Lab\Friend\FriendApi\Friend.Shared\obj\Debug\net5.0\Friend.Shared.AssemblyInfo.cs
+C:\Lab\Friend\FriendApi\Friend.Shared\obj\Debug\net5.0\Friend.Shared.csproj.CoreCompileInputs.cache
+C:\Lab\Friend\FriendApi\Friend.Shared\obj\Debug\net5.0\Friend.Shared.dll
+C:\Lab\Friend\FriendApi\Friend.Shared\obj\Debug\net5.0\ref\Friend.Shared.dll
+C:\Lab\Friend\FriendApi\Friend.Shared\obj\Debug\net5.0\Friend.Shared.pdb

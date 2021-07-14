@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Friend.Domain\Friend.Domain.csproj" />
+    <ProjectReference Include="..\Friend.Infra.Data\Friend.Infra.Data.csproj" />
+    <ProjectReference Include="..\Friend.Infra.IoC\Friend.Infra.IoC.csproj" />
+    <ProjectReference Include="..\Friend.Shared\Friend.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+</Project>

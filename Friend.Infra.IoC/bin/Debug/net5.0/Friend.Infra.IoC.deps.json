@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Friend.Infra.IoC/1.0.0": {
+        "dependencies": {
+          "Friend.Domain": "1.0.0",
+          "Friend.Infra.Data": "1.0.0"
+        },
+        "runtime": {
+          "Friend.Infra.IoC.dll": {}
+        }
+      },
+      "Friend.Domain/1.0.0": {
+        "dependencies": {
+          "Friend.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Friend.Domain.dll": {}
+        }
+      },
+      "Friend.Infra.Data/1.0.0": {
+        "dependencies": {
+          "Friend.Domain": "1.0.0",
+          "Friend.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Friend.Infra.Data.dll": {}
+        }
+      },
+      "Friend.Shared/1.0.0": {
+        "runtime": {
+          "Friend.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Friend.Infra.IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Friend.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Friend.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Friend.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
