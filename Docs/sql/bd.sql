@@ -18,7 +18,7 @@ CREATE TABLE [tb_friend] (
   [nr_telefone] nvarchar(255),
   [ds_endereco] nvarchar(255),
   [fl_status] bit NOT NULL,
-  [dt_cadastro] timestamp NOT NULL,
+  [dt_cadastro] datetime NOT NULL,
   [dt_alteracao] datetime
 )
 GO
