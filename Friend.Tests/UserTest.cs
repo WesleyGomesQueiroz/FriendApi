@@ -21,7 +21,7 @@ namespace Friend.Tests
             {
                 Name = "Wesley Gomes Queiroz",
                 Email = "wesleygomesqueiroz@gmail.com",
-                Document = "41330497805",
+                Document = "11111111111",
                 Password = "wesley@123"
             };
 
