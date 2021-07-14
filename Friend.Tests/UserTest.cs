@@ -27,5 +27,20 @@ namespace Friend.Tests
 
             _userRepository.Create(user);
         }
+
+        [TestMethod]
+        public void Update()
+        {
+            var user = new User
+            {
+                Id = 1,
+                Name = "Wesley Queiroz",
+                Email = "wesleyqueiroz@gmail.com",
+                Document = "22222222222",
+                Password = "wesley@123"
+            };
+
+            _userRepository.Update(user);
+        }
     }
 }

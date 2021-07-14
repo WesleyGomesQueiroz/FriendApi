@@ -28,5 +28,29 @@ namespace Friend.Infra.Data.Repository
 
             return userData.Id;
         }
+
+        public void Update(User user)
+        {
+            using var db = new ApplicationContext();
+
+            var userData = new User
+            {
+                Id = user.Id
+            };
+
+            var userDisconected = new
+            {
+                Name = user.Name,
+                Email = user.Email,
+                Document = user.Document,
+                Password = user.Password,
+                DTUpdate = DateTime.Now
+            };
+
+            db.Attach(userData);
+            db.Entry(userData).CurrentValues.SetValues(userDisconected);
+
+            db.SaveChanges();
+        }
     }
 }
