@@ -8,4 +8,9 @@
     <ProjectReference Include="..\Friend.Shared\Friend.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\Services\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>

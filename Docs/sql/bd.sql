@@ -1,4 +1,4 @@
-CREATE TABLE [tb_user] (
+CREATE TABLE [tb_usuario] (
   [id] int PRIMARY KEY IDENTITY(1, 1) NOT NULL,
   [nm_nome] nvarchar (255) NOT NULL,
   [ds_email] nvarchar(255) NOT NULL,
@@ -9,9 +9,9 @@ CREATE TABLE [tb_user] (
 )
 GO
 
-CREATE TABLE [tb_friend] (
+CREATE TABLE [tb_amigo] (
   [id] int PRIMARY KEY IDENTITY(1, 1) NOT NULL,
-  [id_user] int FOREIGN KEY REFERENCES tb_user(id),
+  [id_usuario] int FOREIGN KEY REFERENCES tb_usuario(id),
   [nm_nome] nvarchar(255) NOT NULL,
   [ds_email] nvarchar(255),
   [nr_ddd] nvarchar(255),
@@ -23,5 +23,5 @@ CREATE TABLE [tb_friend] (
 )
 GO
 
-ALTER TABLE [tb_user] ADD FOREIGN KEY ([id]) REFERENCES [tb_friend] ([id_user])
+ALTER TABLE [tb_usuario] ADD FOREIGN KEY ([id]) REFERENCES [tb_amigo] ([id_usuario])
 GO

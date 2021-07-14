@@ -9,3 +9,4 @@ C:\Lab\Friend\FriendApi\Friend.Shared\obj\Debug\net5.0\Friend.Shared.csproj.Core
 C:\Lab\Friend\FriendApi\Friend.Shared\obj\Debug\net5.0\Friend.Shared.dll
 C:\Lab\Friend\FriendApi\Friend.Shared\obj\Debug\net5.0\ref\Friend.Shared.dll
 C:\Lab\Friend\FriendApi\Friend.Shared\obj\Debug\net5.0\Friend.Shared.pdb
+C:\Lab\Friend\FriendApi\Friend.Shared\obj\Debug\net5.0\Friend.Shared.csprojAssemblyReference.cache
