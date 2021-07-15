@@ -22,7 +22,7 @@ namespace Friend.Domain.Entities
         
         public string Adress { get; set; }
 
-        public bool Status { get; set; }
+        public bool? Status { get; set; }
 
         public DateTime DTCreate { get; set; }
 

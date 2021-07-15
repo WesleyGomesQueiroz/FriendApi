@@ -33,5 +33,33 @@ namespace Friend.Infra.Data.Repository
 
             return friendData.Id;
         }
+
+        public void Update(Friends friends)
+        {
+            using var db = new ApplicationContext();
+
+            var friendsData = new Friends
+            {
+                Id = friends.Id
+            };
+
+            var userDisconected = new
+            {
+                Id = friends.Id,
+                IdUser = friends.IdUser,
+                Name = friends.Name,
+                Email = friends.Email,
+                DDD = friends.DDD,
+                Phone = friends.Phone,
+                Adress = friends.Adress,
+                Status = friends.Status,
+                DTUpdate = DateTime.Now
+            };
+
+            db.Attach(friendsData);
+            db.Entry(friendsData).CurrentValues.SetValues(userDisconected);
+
+            db.SaveChanges();
+        }
     }
 }
