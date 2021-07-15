@@ -7,6 +7,8 @@ namespace Friend.Infra.Data.EntityFramework
     public class ApplicationContext : DbContext
     {
         public DbSet<User> Users { get; set; }
+        
+        public DbSet<Friends> Friends { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
