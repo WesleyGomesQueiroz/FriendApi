@@ -1,5 +1,7 @@
 ﻿using Friend.Domain.Entities;
+using Friend.Domain.Interfaces.Repository;
 using Friend.Infra.Data.EntityFramework;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Friend.Infra.Data.Repository
 {
-    public class FriendRepository
+    public class FriendRepository: IFriendRepository
     {
         public async Task<int> Create(Friends friends)
         {
@@ -60,6 +62,24 @@ namespace Friend.Infra.Data.Repository
             db.Entry(friendsData).CurrentValues.SetValues(userDisconected);
 
             db.SaveChanges();
+        }
+
+        public async Task<Friends> GetFriendById(int friendId)
+        {
+            using var db = new ApplicationContext();
+
+            return await db.Friends.FirstOrDefaultAsync(
+                x =>
+                x.Id == friendId);
+        }
+
+        public async Task<Friends> GetAllFriends(int userId)
+        {
+            using var db = new ApplicationContext();
+
+            return await db.Friends.FirstOrDefaultAsync(
+                x =>
+                x.IdUser == userId);
         }
     }
 }

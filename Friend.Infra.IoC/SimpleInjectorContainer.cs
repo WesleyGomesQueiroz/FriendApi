@@ -11,8 +11,10 @@ namespace Friend.Infra.IoC
         public static void RegisterServices(IServiceCollection services)
         {
             services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IFriendService, FriendService>();
 
             services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IFriendRepository, FriendRepository>();
         }
     }
 }

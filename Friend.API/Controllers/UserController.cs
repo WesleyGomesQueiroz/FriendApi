@@ -40,7 +40,5 @@ namespace Friend.API.Controllers
         {
             return Ok(await _userService.Update(user));
         }
-
-
     }
 }
