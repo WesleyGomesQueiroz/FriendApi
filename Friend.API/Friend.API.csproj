@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MvcContrib" Version="2.0.95" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
@@ -13,10 +14,6 @@
     <ProjectReference Include="..\Friend.Infra.Data\Friend.Infra.Data.csproj" />
     <ProjectReference Include="..\Friend.Infra.IoC\Friend.Infra.IoC.csproj" />
     <ProjectReference Include="..\Friend.Shared\Friend.Shared.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

@@ -27,7 +27,7 @@ namespace Friend.Tests
 
             _userRepository.Create(user);
         }
-
+        
         [TestMethod]
         public void Update()
         {

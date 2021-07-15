@@ -2,6 +2,7 @@
 using Friend.Domain.Interfaces.Repository;
 using Friend.Infra.Data.EntityFramework;
 using Friend.Shared;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Threading.Tasks;
 
@@ -30,6 +31,16 @@ namespace Friend.Infra.Data.Repository
             return userData.Id;
         }
 
+        public async Task<User> Login(User user)
+        {
+            using var db = new ApplicationContext();
+
+            return await db.Users.FirstOrDefaultAsync(
+                x =>
+                x.Email == user.Email &&
+                x.Password == Constants.EncryptSenha(user.Password));
+        }
+
         public void Update(User user)
         {
             using var db = new ApplicationContext();
@@ -52,6 +63,15 @@ namespace Friend.Infra.Data.Repository
             db.Entry(userData).CurrentValues.SetValues(userDisconected);
 
             db.SaveChanges();
+        }
+
+        public async Task<User> GetUserById(int userId)
+        {
+            using var db = new ApplicationContext();
+
+            return await db.Users.FirstOrDefaultAsync(
+                x =>
+                x.Id == userId);
         }
     }
 }
