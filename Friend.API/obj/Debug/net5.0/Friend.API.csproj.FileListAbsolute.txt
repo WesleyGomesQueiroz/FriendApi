@@ -69,3 +69,6 @@ C:\Lab\Friend\FriendApi\Friend.API\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbs
 C:\Lab\Friend\FriendApi\Friend.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 C:\Lab\Friend\FriendApi\Friend.API\bin\Debug\net5.0\Microsoft.Web.Mvc.dll
 C:\Lab\Friend\FriendApi\Friend.API\bin\Debug\net5.0\MvcContrib.dll
+C:\Lab\Friend\FriendApi\Friend.API\bin\Debug\net5.0\FluentValidation.dll
+C:\Lab\Friend\FriendApi\Friend.API\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Lab\Friend\FriendApi\Friend.API\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll

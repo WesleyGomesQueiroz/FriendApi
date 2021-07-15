@@ -1,3 +1,4 @@
+using FluentValidation.AspNetCore;
 using Friend.Infra.IoC;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,6 +28,10 @@ namespace Friend.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllers()
+                .AddFluentValidation(x => x
+                .RegisterValidatorsFromAssemblyContaining<Startup>());
+
             SimpleInjectorContainer.RegisterServices(services);
 
             services.AddControllers();

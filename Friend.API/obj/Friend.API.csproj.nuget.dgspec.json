@@ -58,6 +58,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
             "MvcContrib": {
               "target": "Package",
               "version": "[2.0.95, )"

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RYexhC91zZz20ecDqlYXAbA6fwyJCPf1+uOoFbo9IVH05+6ir+lm/E5j2WZhz7XAopyR8VN+L0lcuWjoNCPvlg==",
+  "dgSpecHash": "D56hbjQnDC42UXaI555VW20zz1vvSNWtNPZI9hTG5BayVhg9hNFCMXGBx821p/gCyegyuZUZdmYKKJGZeM8hTg==",
   "success": true,
   "projectFilePath": "C:\\Lab\\Friend\\FriendApi\\Friend.API\\Friend.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\wesle\\.nuget\\packages\\fluentvalidation\\10.3.0\\fluentvalidation.10.3.0.nupkg.sha512",
+    "C:\\Users\\wesle\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.0\\fluentvalidation.aspnetcore.10.3.0.nupkg.sha512",
+    "C:\\Users\\wesle\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.0\\fluentvalidation.dependencyinjectionextensions.10.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
