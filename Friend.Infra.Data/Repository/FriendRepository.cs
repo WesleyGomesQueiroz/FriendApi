@@ -73,13 +73,11 @@ namespace Friend.Infra.Data.Repository
                 x.Id == friendId);
         }
 
-        public async Task<Friends> GetAllFriends(int userId)
+        public List<Friends> GetAllFriends(int userId)
         {
             using var db = new ApplicationContext();
 
-            return await db.Friends.FirstOrDefaultAsync(
-                x =>
-                x.IdUser == userId);
+            return db.Friends.Where(x => x.IdUser == userId).ToList();
         }
     }
 }

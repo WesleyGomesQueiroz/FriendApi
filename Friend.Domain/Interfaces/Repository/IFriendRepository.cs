@@ -15,6 +15,6 @@ namespace Friend.Domain.Interfaces.Repository
 
         Task<Friends> GetFriendById(int friendId);
 
-        Task<Friends> GetAllFriends(int userId);
+        List<Friends> GetAllFriends(int userId);
     }
 }
