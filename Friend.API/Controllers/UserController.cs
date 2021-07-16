@@ -1,10 +1,8 @@
 ﻿using Friend.Domain.Entities;
 using Friend.Domain.Interfaces.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MvcContrib.PortableAreas;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Friend.API.Controllers
@@ -36,6 +34,7 @@ namespace Friend.API.Controllers
 
         [HttpPost]
         [Route("update")]
+        [Authorize]
         public async Task<ActionResult<ICommandResult>> Update([FromBody] User user)
         {
             return Ok(await _userService.Update(user));

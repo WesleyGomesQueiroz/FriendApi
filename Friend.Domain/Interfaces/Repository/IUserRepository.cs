@@ -12,5 +12,7 @@ namespace Friend.Domain.Interfaces.Repository
         void Update(User user);
 
         Task<User> GetUserById(int userId);
+
+        string GenerateToken(User user);
     }
 }

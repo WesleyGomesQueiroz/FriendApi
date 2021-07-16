@@ -23,6 +23,7 @@ namespace Friend.Domain.Services
         {
             string message = "";
             bool status = false;
+            var token = "";
 
             var userId = await _userRepository.Create(user);
 
@@ -31,6 +32,7 @@ namespace Friend.Domain.Services
             if (userList != null)
             {
                 message = $"Usuario {user.Name} criado com sucesso!";
+                token = _userRepository.GenerateToken(user);
                 status = true;
             }
 
@@ -38,7 +40,8 @@ namespace Friend.Domain.Services
             {
                 userList,
                 message,
-                status
+                status,
+                token
             };
         }
 
@@ -55,6 +58,7 @@ namespace Friend.Domain.Services
         {
             string message = "";
             bool status = false;
+            var token = "";
 
             var resUser = await _userRepository.Login(user);
 
@@ -64,6 +68,7 @@ namespace Friend.Domain.Services
             }
             else
             {
+                token = _userRepository.GenerateToken(resUser);
                 status = true;
             }
 
@@ -71,7 +76,8 @@ namespace Friend.Domain.Services
             {
                 resUser,
                 message,
-                status
+                status,
+                token
             };
         }
     }
