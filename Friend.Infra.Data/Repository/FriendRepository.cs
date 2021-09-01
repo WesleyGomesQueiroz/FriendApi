@@ -76,7 +76,7 @@ namespace Friend.Infra.Data.Repository
         {
             using var db = new ApplicationContext();
 
-            return db.Friends.Where(x => x.IdUser == userId).ToList();
+            return db.Friends.Where(x => x.IdUser == userId && x.Status == true).ToList();
         }
     }
 }
